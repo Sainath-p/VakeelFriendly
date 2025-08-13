@@ -1,12 +1,33 @@
 {
   "name": "vakeelfriendly",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "A comprehensive legal practice management webapp for advocates and lawyers",
+  "private": false,
+  "homepage": "https://vakeelfriendly.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vakeelfriendly.git"
+  },
+  "keywords": [
+    "legal",
+    "practice-management",
+    "lawyers",
+    "advocates",
+    "case-management",
+    "client-portal",
+    "nextjs",
+    "typescript",
+    "tailwindcss"
+  ],
+  "author": "VakeelFriendly Team",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build",
+    "netlify": "next build && next export"
   },
   "dependencies": {
     "react": "^18",
